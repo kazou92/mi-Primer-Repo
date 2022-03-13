@@ -1,18 +1,27 @@
+*{
+    box-sizing: border-box;
+}
 .caja1{
     width: 500px;
     height: 500px;
     border: dashed blue;
     background-color: rgb(255, 0, 255); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
     
     
 
 }
 .caja1 div{
-    width: 30px;
-    height: 30px;
+    width: 50%;
+    height: 50%;
     border: solid;
     padding: 20px;
-    margin: 10px;
+    
+   
+    
     
     
 
@@ -41,3 +50,26 @@
 .caja1 div:nth-child(4){
     border-right: 10px solid cyan;
 }
+.carte1{
+    border: 1px solid black;
+    width: 350px;
+    height: 560px;
+}
+img{
+    width: 350px;
+    height: 350px;
+    
+}
+button{
+    background-color: rgb(61, 199, 103);
+    
+   
+}
+.clase1{
+    text-decoration: none;
+    
+}
+.clase1::after{
+    content: "↗";
+}
+
